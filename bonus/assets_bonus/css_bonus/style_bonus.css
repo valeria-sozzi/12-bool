@@ -5,6 +5,9 @@ ul{
 a{
     text-decoration: none;
 }
+img{
+    max-width: 100%;
+}
 
 .color-black{
     color: black;
@@ -23,11 +26,25 @@ a{
     padding-right: 1rem;
 }
 
+.p2{
+    padding: 0 2rem;
+}
+
 /* header */
 .navbar{
-    height: 50px;
+    height: 70px;
     background-color: rgb(226, 226, 226);
 }
+
+/* main */
+.section-top{
+    flex-direction: column;
+}
+
+
+
+
+
 
 /* hover */
 .hw:hover{
