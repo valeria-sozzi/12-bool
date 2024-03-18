@@ -12,6 +12,9 @@ img{
 .color-black{
     color: black;
 }
+.color-gray{
+    color: gray;
+}
 .align-center{
     align-items: center;
 }
@@ -29,6 +32,9 @@ img{
 .p2{
     padding: 0 2rem;
 }
+.p1{
+    padding: 1rem 0;
+}
 
 /* header */
 .navbar{
@@ -41,11 +47,17 @@ img{
     flex-direction: column;
 }
 
+/* footer */
+footer{
+    background-color: rgb(226, 226, 226);
+}
 
-
-
-
-
+footer .col-4{
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 0.9rem;
+    row-gap: 0.5rem;
+}
 /* hover */
 .hw:hover{
     color: white;
